@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Bitcount Prop Single Ink;
+  src: url(../fonts//Bitcount_Prop_Single_Ink/BitcountPropSingleInk.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+.page-home {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #bec4fc;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  
+
+  h1 {
+    font-family: "Bitcount Prop Single Ink", system-ui;
+  
+  }
+  p {
+    margin-top: 30px;
+    font-size: 16px;
+   
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background: #3f51b5;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+.btn:hover {
+  background: #2c3e9a;
+}
+
+.game-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background: #f4f4f9;
+  // background-color: #bec4fc;
+  padding: 20px;
+}

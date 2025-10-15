@@ -1,0 +1,29 @@
+.result-page {
+  text-align: center;
+  margin-top: 50px;
+
+  h2 {
+    color: green;
+    margin-bottom: 20px;
+  }
+
+  .result-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .result-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    .btn {
+      padding: 10px 20px;
+      background: #0077ff;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+}
